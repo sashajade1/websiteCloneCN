@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#5865f2;
+ 
+}
+
+
+
+.img1{
+  display: flex;
+ justify-content: flex-start;
+}
+
+
+.imgrow{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #5865f2;
+
+}
+
+
+.topnav{
+  display: flex;
+  justify-content: center;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Secular One', sans-serif;
+  display: flex;
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #5865f2;
+  color: white;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-family:  'Merriweather Sans', sans-serif;;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  line-height: 95%;
+  font-weight: bold;
+}
+
+
+h2{
+  display: flex;
+  justify-content: right;
+  font-size: 30px;
+}
+
+.h2thirdrow{
+  display: flex;
+  justify-content: left;
+  font-size: 30px;
+}
+
+p{
+  text-align: center;
+color: white; 
+}
+
+.p1{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.secondtext{
+  display: flex;
+  text-align: left;
+  justify-content:end
+}
+
+.thirdtext{
+  display: flex;
+  text-align: left;
+  justify-content:end
+}
+
+.menu{
+  background-color: #5865f2;
+  color: white;
+  border: none;
+}
+
+
+.secondrow{
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.secrowtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+ 
+}
+
+
+.windowsdownload{
+  display: flex;
+  border-color: white;
+  color: black;
+  background-color: white;
+  justify-content: center;
+  cursor: pointer;
+  display: block;
+  padding: 10px 24px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.openinbrowser {
+  border-color: black;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  display: block;
+  padding: 10px 24px;
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+
+
+
+
+
